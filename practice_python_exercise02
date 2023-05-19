@@ -1,0 +1,11 @@
+#This exercise was to build a program that would ask the user to input a number and then tell the user whether the number is odd or even.
+
+number = input('Enter your favorite number!:')
+
+fav = int(number)
+if fav % 2 == 0:
+    print('Your favorite number is even!')
+elif fav % 2 != 0:
+    print('Your favorite number is odd!')
+    
+print('Done.')
